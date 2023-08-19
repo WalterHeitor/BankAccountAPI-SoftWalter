@@ -1,5 +1,6 @@
-package br.com.softwalter.bankaccount.domain.entities;
+package br.com.softwalter.bankaccount.domain.entities.customer;
 
+import br.com.softwalter.bankaccount.domain.entities.customer.Customer;
 import jakarta.persistence.*;
 
 @Entity

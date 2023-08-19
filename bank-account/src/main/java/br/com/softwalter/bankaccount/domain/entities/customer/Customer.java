@@ -1,4 +1,4 @@
-package br.com.softwalter.bankaccount.domain.entities;
+package br.com.softwalter.bankaccount.domain.entities.customer;
 
 import jakarta.persistence.*;
 

@@ -1,11 +1,12 @@
-package br.com.softwalter.bankaccount.domain.entities;
+package br.com.softwalter.bankaccount.domain.entities.bank;
 
+import br.com.softwalter.bankaccount.domain.entities.customer.Customer;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "account")
+@Table(name = "account") // conta
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Account {
 
